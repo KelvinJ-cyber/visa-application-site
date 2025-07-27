@@ -2,6 +2,17 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #333;
 }
+.logo-img-m {
+  width: 10%;
+  height: auto;
+}
+.navbar-nav li a {
+  color:black;
+}
+.navbar-nav li:hover {
+  background-color: rgb(232, 230, 230);
+  color: black;
+}
 
 /* Hero */
 .hero {
