@@ -1,0 +1,18 @@
+echo "# visa-application-site" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ekwechimaobi/visa-application-site.git
+git push -u origin main
+
+
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAaWsXIt8
+9b6P29p2u4qpUVAAAAGAAAAAEAAAAzAAAAC3NzaC1lZDI1NTE5AAAAIEy/gOhPC7IKpsyZ
+nFUwMWFL1Tw97bti8Wk9pckiLc9mAAAAoNthBbD5+C77tMlEHshTlzXn6qQuHaqzXdITFs
+GUhD9AXgMU+zQ8sPmFg0zeUrAzSz9NkGw9NcnFQfD+wpQePh3JqLFDhn2LNj8uk/mb4THq
++AbUCDbiCpiffKicMAzK2R/EXdoBCeHa2edU2D7n+peTNe6j1EWtc9MeJCFqPRyl8QYHrP
+A6ORFv5tVwGn60mieR+j0n8ZF0kqyiTacd3xE=
+-----END OPENSSH PRIVATE KEY-----
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEy/gOhPC7IKpsyZnFUwMWFL1Tw97bti8Wk9pckiLc9m ekwechimaobi5@gmail.com
