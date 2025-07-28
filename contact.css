@@ -1,0 +1,76 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+.logo-img-m {
+  width: 10%;
+  height: auto;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 80px; /* Adjust based on navbar height */
+}
+
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #1E88FF;
+}
+
+.nav-links .active {
+  color:#1E88FF;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+.btn.orange {
+  background-color: #1E88FF;
+}
+
+.nav-buttons .btn {
+  color: #fff !important;
+  padding: 6px 12px;    
+  font-size: 14px;
+  border-radius: 5px;   
+}
+
+
+.nav-buttons .btn:hover {
+  background-color: #1E88FF;
+  color: #fff;
+  /* No change on hover */
+}
