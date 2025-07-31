@@ -29,16 +29,20 @@
         <img src="assets/pictures/logo.png" alt="" class="logo-img-m" />
       </a>
       <div class="nav-links">
-        <a href="/" class="active">Home</a>
+        <a href="/">Home</a>
         <a href="about.html">About Us</a>
         <a href="#">Sticker Visa</a>
         <a href="blog.html">Blog</a>
-        <a href="news.html">News</a>
+        <a href="news.html" class="active">News</a>
         <a href="contact.html">Contact Us</a>
       </div>
       <div class="nav-buttons">
-        <button class="btn orange">Sign In / Sign Up</button>
-        <button class="btn orange">Agent Login</button>
+        <a href="sign-in.html" style="text-decoration: none"
+          ><button class="btn orange">Sign In / Sign Up</button></a
+        >
+        <a href="agent-login.html" style="text-decoration: none"
+          ><button class="btn orange">Agent Login</button></a
+        >
       </div>
     </div>
     <div class="trending-bar d-flex align-items-center">
@@ -117,126 +121,157 @@
       </div>
     </div>
     <div class="container-xl mt-5">
-  <div class="row gx-5">
+      <div class="row gx-5">
+        <!-- Featured News Left -->
+        <div class="col-lg-4">
+          <h5 class="section-title">Featured News</h5>
+          <div class="news-list">
+            <div class="news-item d-flex mb-4">
+              <img src="assets/pictures/1.jpg" alt="" class="thumb me-3" />
+              <div>
+                <div class="news-title">
+                  Vietjet Starts Amazing Sale: Fly From India To Vietnam For
+                  Only Rs 11!
+                </div>
+                <div class="news-date">February 28, 2025</div>
+              </div>
+            </div>
 
-    <!-- Featured News Left -->
-    <div class="col-lg-4">
-      <h5 class="section-title">Featured News</h5>
-      <div class="news-list">
-        <div class="news-item d-flex mb-4">
-          <img src="assets/pictures/1.jpg" alt="" class="thumb me-3">
-          <div>
-            <div class="news-title">Vietjet Starts Amazing Sale: Fly From India To Vietnam For Only Rs 11!</div>
-            <div class="news-date">February 28, 2025</div>
+            <div class="news-item d-flex mb-4">
+              <img src="assets/pictures/2.jpg" alt="" class="thumb me-3" />
+              <div>
+                <div class="news-title">
+                  India’s Passport Now Ranks Higher As Citizens Can Travel To 57
+                  Countries Without A Visa
+                </div>
+                <div class="news-date">July 25, 2023</div>
+              </div>
+            </div>
+
+            <div class="news-item d-flex mb-4">
+              <img src="assets/pictures/3.jpg" alt="" class="thumb me-3" />
+              <div>
+                <div class="news-title">
+                  India Hosting the Tourism Ministers’ Meeting in Varanasi
+                </div>
+                <div class="news-date">March 16, 2023</div>
+              </div>
+            </div>
+
+            <div class="news-item d-flex mb-4">
+              <img src="assets/pictures/4.jpg" alt="" class="thumb me-3" />
+              <div>
+                <div class="news-title">
+                  PATA and Visa Collaborate to Support SMEs in Tourism
+                </div>
+                <div class="news-date">February 16, 2023</div>
+              </div>
+            </div>
+
+            <button class="btn btn-outline-secondary btn-sm">
+              Load more ▼
+            </button>
           </div>
         </div>
 
-        <div class="news-item d-flex mb-4">
-          <img src="assets/pictures/2.jpg" alt="" class="thumb me-3">
-          <div>
-            <div class="news-title">India’s Passport Now Ranks Higher As Citizens Can Travel To 57 Countries Without A Visa</div>
-            <div class="news-date">July 25, 2023</div>
+        <!-- Featured News Right -->
+        <div class="col-lg-4">
+          <h5 class="section-title">Featured News</h5>
+          <div class="news-list">
+            <div class="news-item d-flex mb-4">
+              <img src="assets/pictures/5.jpg" alt="" class="thumb me-3" />
+              <div>
+                <div class="news-title">
+                  Trump Revokes Visas of 300+ International Students
+                </div>
+                <div class="news-date">April 2, 2025</div>
+              </div>
+            </div>
+
+            <div class="news-item d-flex mb-4">
+              <img src="assets/pictures/6.jpg" alt="" class="thumb me-3" />
+              <div>
+                <div class="news-title">
+                  Why Green Card, H-1B, and F-1 Holders Risk Being Stranded
+                </div>
+                <div class="news-date">March 26, 2025</div>
+              </div>
+            </div>
+
+            <div class="news-item d-flex mb-4">
+              <img src="assets/pictures/7.jpg" alt="" class="thumb me-3" />
+              <div>
+                <div class="news-title">
+                  UAE Introduces 90-Day Visa Without Sponsor Requirement
+                </div>
+                <div class="news-date">February 25, 2025</div>
+              </div>
+            </div>
+
+            <div class="news-item d-flex mb-4">
+              <img src="assets/pictures/8.jpg" alt="" class="thumb me-3" />
+              <div>
+                <div class="news-title">
+                  UAE Expands Visa-On-Arrival Facility For Indian Nationals
+                </div>
+                <div class="news-date">February 18, 2025</div>
+              </div>
+            </div>
+
+            <button class="btn btn-outline-secondary btn-sm">
+              Load more ▼
+            </button>
           </div>
         </div>
 
-        <div class="news-item d-flex mb-4">
-          <img src="assets/pictures/3.jpg" alt="" class="thumb me-3">
-          <div>
-            <div class="news-title">India Hosting the Tourism Ministers’ Meeting in Varanasi</div>
-            <div class="news-date">March 16, 2023</div>
+        <!-- Trending Blogs -->
+        <div class="col-lg-4">
+          <h5 class="section-title">Trending Blogs</h5>
+          <div class="news-list">
+            <div class="d-flex mb-4">
+              <img src="assets/pictures/9.jpg" class="thumb me-3" alt="" />
+              <div class="flex-grow-1">
+                <div class="news-title fw-bold">
+                  Australia & UK Hike Visa Fees By 13%
+                </div>
+                <div class="news-meta small">Visadone - April 4, 2025</div>
+                <p class="small text-muted">
+                  The governments of Australia and the United Kingdom have
+                  introduced visa fee hikes of...
+                </p>
+              </div>
+              <div class="comment-count">0</div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <img src="assets/pictures/10.jpg" class="thumb me-3" alt="" />
+              <div class="flex-grow-1">
+                <div class="news-title fw-bold">
+                  Trump Revokes Visas of 300+ International Students
+                </div>
+                <div class="news-meta small">Visadone - April 2, 2025</div>
+                <p class="small text-muted">
+                  The Trump administration intensified its crackdown, revoking
+                  over 300 F-1 visas...
+                </p>
+              </div>
+              <div class="comment-count">0</div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <img src="assets/pictures/11.jpg" class="thumb me-3" alt="" />
+              <div class="flex-grow-1">
+                <div class="news-title fw-bold">
+                  Urgent Alert: Green Card and Visa Holders Stranded
+                </div>
+                <div class="news-meta small">Visadone - March 26, 2025</div>
+              </div>
+              <div class="comment-count">0</div>
+            </div>
           </div>
         </div>
-
-        <div class="news-item d-flex mb-4">
-          <img src="assets/pictures/4.jpg" alt="" class="thumb me-3">
-          <div>
-            <div class="news-title">PATA and Visa Collaborate to Support SMEs in Tourism</div>
-            <div class="news-date">February 16, 2023</div>
-          </div>
-        </div>
-
-        <button class="btn btn-outline-secondary btn-sm">Load more ▼</button>
       </div>
     </div>
-
-    <!-- Featured News Right -->
-    <div class="col-lg-4">
-      <h5 class="section-title">Featured News</h5>
-      <div class="news-list">
-        <div class="news-item d-flex mb-4">
-          <img src="assets/pictures/5.jpg" alt="" class="thumb me-3">
-          <div>
-            <div class="news-title">Trump Revokes Visas of 300+ International Students</div>
-            <div class="news-date">April 2, 2025</div>
-          </div>
-        </div>
-
-        <div class="news-item d-flex mb-4">
-          <img src="assets/pictures/6.jpg" alt="" class="thumb me-3">
-          <div>
-            <div class="news-title">Why Green Card, H-1B, and F-1 Holders Risk Being Stranded</div>
-            <div class="news-date">March 26, 2025</div>
-          </div>
-        </div>
-
-        <div class="news-item d-flex mb-4">
-          <img src="assets/pictures/7.jpg" alt="" class="thumb me-3">
-          <div>
-            <div class="news-title">UAE Introduces 90-Day Visa Without Sponsor Requirement</div>
-            <div class="news-date">February 25, 2025</div>
-          </div>
-        </div>
-
-        <div class="news-item d-flex mb-4">
-          <img src="assets/pictures/8.jpg" alt="" class="thumb me-3">
-          <div>
-            <div class="news-title">UAE Expands Visa-On-Arrival Facility For Indian Nationals</div>
-            <div class="news-date">February 18, 2025</div>
-          </div>
-        </div>
-
-        <button class="btn btn-outline-secondary btn-sm">Load more ▼</button>
-      </div>
-    </div>
-
-    <!-- Trending Blogs -->
-    <div class="col-lg-4">
-      <h5 class="section-title">Trending Blogs</h5>
-      <div class="news-list">
-        <div class="d-flex mb-4">
-          <img src="assets/pictures/9.jpg" class="thumb me-3" alt="">
-          <div class="flex-grow-1">
-            <div class="news-title fw-bold">Australia & UK Hike Visa Fees By 13%</div>
-            <div class="news-meta small">Visadone - April 4, 2025</div>
-            <p class="small text-muted">The governments of Australia and the United Kingdom have introduced visa fee hikes of...</p>
-          </div>
-          <div class="comment-count">0</div>
-        </div>
-
-        <div class="d-flex mb-4">
-          <img src="assets/pictures/10.jpg" class="thumb me-3" alt="">
-          <div class="flex-grow-1">
-            <div class="news-title fw-bold">Trump Revokes Visas of 300+ International Students</div>
-            <div class="news-meta small">Visadone - April 2, 2025</div>
-            <p class="small text-muted">The Trump administration intensified its crackdown, revoking over 300 F-1 visas...</p>
-          </div>
-          <div class="comment-count">0</div>
-        </div>
-
-        <div class="d-flex mb-4">
-          <img src="assets/pictures/11.jpg" class="thumb me-3" alt="">
-          <div class="flex-grow-1">
-            <div class="news-title fw-bold">Urgent Alert: Green Card and Visa Holders Stranded</div>
-            <div class="news-meta small">Visadone - March 26, 2025</div>
-          </div>
-          <div class="comment-count">0</div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
 
     <!-- ✅ Footer -->
     <footer class="custom-footer text-white pt-5 pb-3" style="background: #333">
