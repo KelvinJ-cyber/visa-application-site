@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign In | Visa Portal</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        display: flex;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f2f4f8;
+      }
+
+      .side-img {
+        flex: 1;
+        background: url("assets/pictures/sign-in.jpg") no-repeat center center/cover;
+        position: relative;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+
+      .side-img::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        z-index: 1;
+      }
+
+      .side-text {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        max-width: 80%;
+      }
+
+      .side-text h1 {
+        font-size: 2rem;
+        margin-bottom: 0.6rem;
+      }
+
+      .side-text p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #e2e2e2;
+      }
+
+      .form-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+      }
+
+      .form-box {
+        background: #ffffff;
+        padding: 2.5rem;
+        width: 100%;
+        max-width: 420px;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      }
+
+      .welcome {
+        font-size: 1rem;
+        color: #888;
+        margin-bottom: 0.5rem;
+      }
+
+      .form-box h2 {
+        margin-bottom: 1.5rem;
+        color: #1e88ff;
+        font-size: 1.5rem;
+      }
+
+      .form-group {
+        margin-bottom: 1.2rem;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 0.4rem;
+        color: #333;
+        font-weight: 500;
+        font-size: 0.95rem;
+      }
+
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 0.85rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        transition: border-color 0.3s;
+      }
+
+      input:focus {
+        outline: none;
+        border-color: #004aad;
+        box-shadow: 0 0 0 2px rgba(0, 74, 173, 0.1);
+      }
+
+      button {
+        width: 100%;
+        padding: 0.9rem;
+        background: #1e88ff;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+
+      button:hover {
+        background: #003a8c;
+      }
+
+      .link {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        color: #555;
+      }
+
+      .link a {
+        color: #004aad;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      .link a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 768px) {
+        .side-img {
+          display: none;
+        }
+
+        .form-box {
+          box-shadow: none;
+          padding: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="side-img">
+      <div class="side-text">
+        <h1>Explore the World</h1>
+        <p>
+          With Devine Travels & Tours, your journey begins here. Apply for your
+          visa, book your trip, and explore new cultures around the globe.
+        </p>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-box">
+        <div class="welcome">Welcome back!</div>
+        <h2>User Sign In</h2>
+        <form>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="e.g. user@example.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          <button type="submit">Sign In</button>
+        </form>
+        <div class="link">
+          Don't have an account? <a href="signup.html">Sign Up</a>
+        </div>
+      </div>
+    </div>
+    <!-- <footer>
+      <div class="text-center small">
+        &copy; 2025 Divine Travel & Tours. All rights reserved. | Powered by
+        Kelvin Devs
+      </div>
+    </footer> -->
+  </body>
+</html>
